@@ -95,3 +95,10 @@ figure img{
 .content:target{
     display:block;
 }
+
+.music{
+   background-color:green;
+    /**margin-top:20px;**/
+    background-size:cover;
+    /**background-image:url("c:\Users\Bindu\Desktop\web\MV5BOTllODIzZjUtZGVlNC00YjhhLWIxNzMtZTUyZjJmNzcyODBmXkEyXkFqcGc@._V1_.jpg");**/
+}
