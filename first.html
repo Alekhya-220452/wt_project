@@ -2,43 +2,134 @@
     <head>
         <title>e-commerence</title>
         <link rel="stylesheet" href="basic.css">
+
+        <style>
+            nav{
+                background-color:black;
+                padding:30px;
+                display:flex;
+                align-items:center;
+            }
+
+            nav img{
+                height:80px;
+                margin-right:20px;
+            }
+
+            nav a{
+                color:white;
+                font-size:30px;
+                margin:15px;
+            }
+
+            nav a:hover{
+                border:3px solid white;
+            }
+
+
+            .search-box{
+                margin-left:auto;
+                
+                width=250px;
+                padding:6px;
+            }
+            .search-box button{
+                padding: 6px;
+                font-size:16px;
+                cursor:pointer;
+            }
+        </style>
+
     </head>
     <body>
-        <header>
-            <div class="navbar">
-                <div class="nav-logo border">
-                    <div class="logo"></div>
-                </div>
-                <div class="nav-search">
-                    <input placeholder="search" class="search-input">
-                    
-                </div>
-            </div>
-        </header>
+        
+            
+              
+           
+        
 
-        <div class="hero-section">
+        
+
+        <nav>
+            <img src="image14.png" alt="logo">
+           <a href="#">Home</a>
+           <a href="#"> products</a>
+            <a href="#">categories</a>
+             <a href="#">cart</a>
+              <a href="#">login</a>
+
+            <div class="search-box">
+                <input type="text" place holder="search products">
+                <button>search</button>
+            </div>
+
+
+        </nav>
+
+         <div class="hero-section">
             <div class="hero-msg">
-                <p>now your are in e-commerence website<a>click here</a></p>
+                <p>now your are in e-commerce website<a>click here</a></p>
             </div>
         </div>
     
         <div class="figure">
-            <figure class="img-fig">
+            <figure>
             
-                <img src="image11.jpg" width="300" height="300">
+                <img src="image11.jpg" width="250" height="300">
                 <figcaption>Beauty furniture</figcaption>
             </figure>
 
             <figure>
             
-                <img src="image10.jpg" width="300" height="300">
+                <img src="image10.jpg" width="250" height="300">
                 <figcaption>Beauty furniture</figcaption>
             </figure>
         </div>
 
-        <div>
+        <div class="figure1">
+            <figure>
             
+                <img src="image3.jpg" width="250" height="300">
+                <figcaption><b>books</b></figcaption>
+            </figure>
+
+            <figure>
+            
+                <img src="image7.jpg" width="250" height="300">
+                <figcaption><b>books</b></figcaption>
+            </figure>
+
+            <figure>
+            
+                <img src="image6.jpg" width="250" height="300">
+                <figcaption><b>books</b></figcaption>
+            </figure>
         </div>
+
+        <div class="figure2">
+            <figure>
+                  <a href="gallery.html" target="_blank">
+                    
+                        <img src="image5.jpg" width="250" height="300">
+                        
+                    
+                  </a>
+
+                  
+                
+                <figcaption><b>clothes</b></figcaption>
+            </figure>
+            <figure>
+                <a href="image4.jpg" target="_blank">
+                    <img src="image4.jpg" width="250" height="300">
+                </a>
+                <figcaption><b>clothes</b></figcaption>
+            </figure>
+        </div>
+
+
+        
+
     
     </body>
 </html>
