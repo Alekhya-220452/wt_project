@@ -23,17 +23,7 @@
 
 
 
-/**.img-fig{
-    display:inline-block;
-}
 
-.img-fig{
-    display:block;
-
-}
-.img-fig figcaption{
-    text-align:center;
-}**/
 
 .figure{
     display:flex;
@@ -291,4 +281,30 @@ figure img{
 
  .form3 button:hover{
     border:2px solid black;
+ }
+
+ .gallery{
+    display:flex;
+    gap:20px;
+ }
+ .gallery figure {
+    border:1px solid #ccc;
+    padding:10px;
+    width:250px;
+    text-align:center;
+ }
+
+ .gallery figure img{
+    width:50%;
+    height:auto;
+    object-fit:cover;
+ }
+
+ .gallery figcaption{
+    margin-top:8px;
+    font-size:14px;
+ }
+ .price{
+    color:green;
+    font-weight:bolid;
  }
