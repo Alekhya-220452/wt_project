@@ -23,21 +23,7 @@
 
 
 
-<<<<<<< HEAD
 
-=======
-/**.img-fig{
-    display:inline-block;
-}
-
-.img-fig{
-    display:block;
-
-}
-.img-fig figcaption{
-    text-align:center;
-}**/
->>>>>>> 3582d69fee3b5982c32a4ac8fb8a13a207fe5d55
 
 .figure{
     display:flex;
@@ -295,7 +281,6 @@ figure img{
 
  .form3 button:hover{
     border:2px solid black;
-<<<<<<< HEAD
  }
 
  .gallery{
@@ -322,6 +307,4 @@ figure img{
  .price{
     color:green;
     font-weight:bolid;
-=======
->>>>>>> 3582d69fee3b5982c32a4ac8fb8a13a207fe5d55
  }
