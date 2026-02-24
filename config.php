@@ -10,5 +10,5 @@ try {
     $db = $client->mangoDB;
 } catch (Exception $e) {
     die("Database connection failed: " . $e->getMessage());
-}
+}git 
 ?>
